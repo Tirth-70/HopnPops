@@ -1,0 +1,7 @@
+body{
+    background: url('../images/bg.png') rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
