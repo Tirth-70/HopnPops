@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Manrope&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Manrope&family=Bebas+Neue&display=swap');
 
 *,
 *::after,
@@ -39,9 +38,8 @@ body{
   font-family: 'Caveat', cursive;
   color: #fbfffd
 }
-
-.flavor_section{
-
+.testimonial b{
+  font-family: 'Bebas Neue', sans-serif;
 }
 nav img{
     width: 12em;
@@ -148,7 +146,6 @@ nav img{
 .owl-carousel .owl-item .card .name {
   position: absolute;
   bottom: -20px;
-  left: 33%;
   color: #101c81;
   font-size: 1.1rem;
   font-weight: 600;
