@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Manrope&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Manrope&family=Raleway&display=swap');
 
 *,
 *::after,
@@ -39,8 +39,13 @@ body{
   color: #fbfffd
 }
 .testimonial b{
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
+a.email-link {
+  color: inherit;
+  text-decoration: none;
+}
+
 nav img{
     width: 12em;
     height: 13em;
@@ -146,10 +151,10 @@ nav img{
 .owl-carousel .owl-item .card .name {
   position: absolute;
   bottom: -20px;
-  color: #101c81;
-  font-size: 1.1rem;
+  color: #2b2b2b;
+  font-size: 2.1rem;
   font-weight: 600;
-  background-color: aquamarine;
+  background-color: white;
   padding: 0.3rem 0.4rem;
   border-radius: 5px;
   box-shadow: 2px 3px 15px #3c405a;
@@ -335,6 +340,9 @@ footer .underline span{
 
   
 @media(max-width: 991px){
+  .navbar_toggle{
+    padding: 0px 10px !important;
+  }
   .sidebar{
       background-color: rgba(225, 255, 255, 0.15);
       backdrop-filter: blur(10px);
